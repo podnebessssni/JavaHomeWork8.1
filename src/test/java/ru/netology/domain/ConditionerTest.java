@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-class ConditionerAdvancedTest {
+class ConditionerTest {
     @Test
     public void shouldGetAndSet() {
-        ConditionerAdvanced conditioner = new ConditionerAdvanced();
+        Conditioner conditioner = new Conditioner();
         String expected = "Кондишн";
 
         assertNull(conditioner.getName());
